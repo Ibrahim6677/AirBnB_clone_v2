@@ -4,7 +4,7 @@
 Created on Tue Sep  1 11:15:54 2020
 @author: Robinson Montes
 """
-from flask import Flask
+from flask import Flask # type: ignore
 app = Flask(__name__)
 
 
