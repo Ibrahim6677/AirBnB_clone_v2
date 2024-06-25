@@ -21,7 +21,7 @@ def appcontext_teardown(self):
 def state_info():
     """Display a HTML page inside the tag BODY"""
     return render_template('7-states_list.html',
-                           states=storage.all(State))
+                          states=storage.all(State))
 
 
 if __name__ == '__main__':
